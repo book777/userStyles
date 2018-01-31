@@ -1,0 +1,33 @@
+Name
+	Clear dark facebook by book777
+
+Link
+	https://userstyles.org/styles/136318
+
+
+Group
+	https://fb.com/userstyles.136318
+
+
+Description
+
+	Theme with background and different block colors support for <a href='//fb.com'>facebook.com</a> and <a href='//messenger.com'>messenger.com</a>.
+
+	Compatible with the latest versions of browsers <a href='//google.com/chrome/browser/'>chrome</a> and <a href='//mozilla.org/firefox/new/'>firefox</a>.
+
+	Tags: facebook, fb, facebook.com, www.facebook.com, messenger, messenger.com
+
+
+Additional Info
+
+	Do not forget to update the style.
+	If you find a bug type post or private message to the public page - <a href="//fb.com/489734454703065">link</a>
+
+
+	Checking the support of your browser - <a href='//fiddle.jshell.net/dv1kuo3h/show'>link</a>
+	My background compilation - <a href='https://imgur.com/a/VLIi8'>link</a>
+
+
+	Thanks:
+	<a href='/users/297040'>David G.</a> for help in finding bugs
+	<a href='/users/302333'>Evan950</a> for the <a href='/styles/120562'>style</a>

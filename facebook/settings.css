@@ -1,0 +1,696 @@
+Block color theme
+bg_theme
+	Dark gray-blue*
+	bg_theme_blueg
+		--bg-color-background: #23232d;
+		--bg-color-first: #2c2c36;
+		--bg-color-second: #26262f;
+		--bg-color-hover: #3b3b4b;
+
+		--border-color-top: #2c2c36;
+		--border-color-right: #2c2c36;
+		--border-color-bottom: #2c2c36;
+		--border-color-left: #2c2c36;
+
+		--icon-change-partly: 81%;
+		
+	Black-white
+	bg_theme_blwh
+		--bg-color-background: #191919;
+		--bg-color-first: #222;
+		--bg-color-second: #1c1c1c;
+		--bg-color-hover: #333;
+
+		--border-color-top: #222;
+		--border-color-right: #222;
+		--border-color-bottom: #222;
+		--border-color-left: #222;
+
+		--icon-change-partly: 81%;
+		
+	Green-blue (feldgrau)
+	bg_theme_feldgrau
+		--bg-color-background: #315456;
+		--bg-color-first: #233c3e;
+		--bg-color-second: #1e3031;
+		--bg-color-hover: #4a6769;
+
+		--border-color-top: #233c3e;
+		--border-color-right: #233c3e;
+		--border-color-bottom: #233c3e;
+		--border-color-left: #233c3e;
+
+		--icon-change-partly: 81%;
+		
+	Dark blue
+	bg_theme_blue
+		--bg-color-background: #141335;
+		--bg-color-first: #130c27;
+		--bg-color-second: #0e091f;
+		--bg-color-hover: #241d44;
+
+		--border-color-top: #170e2f;
+		--border-color-right: #170e2f;
+		--border-color-bottom: #170e2f;
+		--border-color-left: #170e2f;
+
+		--icon-change-partly: 91%;
+		
+	Dark gray-black
+	bg_theme_def
+		--bg-color-background: #373737;
+		--bg-color-first: #2a2a2a;
+		--bg-color-second: #312d2d;
+		--bg-color-hover: #3d3a3a;
+
+		--border-color-top: #3a3a3a;
+		--border-color-right: #2d2d2d;
+		--border-color-bottom: #252525;
+		--border-color-left: #383838;
+
+		--icon-change-partly: 83.6%;
+		
+	Darker gray-black
+	bg_theme_darker
+		--bg-color-background: #2d2d2d;
+		--bg-color-first: #232323;
+		--bg-color-second: #292525;
+		--bg-color-hover: #2d2b2b;
+
+		--border-color-top: #272727;
+		--border-color-right: #232222;
+		--border-color-bottom: #1b1b1b;
+		--border-color-left: #252525;
+
+		--icon-change-partly: 86%;
+		
+	Dark red (burgundy)
+	bg_theme_red
+		--bg-color-background: #3a0811;
+		--bg-color-first: #2b0811;
+		--bg-color-second: #250d14;
+		--bg-color-hover: #44121a;
+
+		--border-color-top: #250f14;
+		--border-color-right: #250f14;
+		--border-color-bottom: #2d0e19;
+		--border-color-left: #250f14;
+
+		--icon-change-partly: 94%;
+		
+	Black
+	bg_theme_black
+		--bg-color-background: #080808;
+		--bg-color-first: #000000;
+		--bg-color-second: #080808;
+		--bg-color-hover: #1f1d1d;
+
+		--border-color-top: #090909;
+		--border-color-right: #090909;
+		--border-color-bottom: #090909;
+		--border-color-left: #090909;
+
+		--icon-change-partly: 100%;
+		
+Text color theme
+text_theme
+
+	White*
+	text_theme_def
+		--text-color-first: #dfdfdf;
+		--text-color-second: #a7a7a7;		
+		
+	Yellow
+	text_theme_yellow
+		--text-color-first: #f5ed88;
+		--text-color-second: #b3ae6d;
+		
+	Gray
+	text_theme_darker
+		--text-color-first: #b1b1b1;
+		--text-color-second: #696969;
+
+Photo filters
+photo_filters
+
+	None (fastest)*
+	photo_filters_none
+		--photo-brightness: 100%;
+		--photo-contrast: 100%;
+
+	More contrast
+	photo_filters_co
+		--photo-brightness: 100%;
+		--photo-contrast: 120%;
+
+	Darker
+	photo_filters_br
+		--photo-brightness: 75%;
+		--photo-contrast: 100%;
+
+	Darker & contrast
+	photo_filters_br_co
+		--photo-brightness: 75%;
+		--photo-contrast: 120%;
+
+Opacity chat and header
+chat_opacity
+
+	Full (faster)*
+	chat_opacity_full
+		--opacity-chat-head:1;
+		
+	Transparent
+	chat_opacity_tr
+		--opacity-chat-head:.96;
+
+Blur profile/group cover photo?
+cover_photo
+	
+	No*
+	cover_photo_no
+		--photo-blur:0px;
+		
+	Yes
+	cover_photo_yes
+		--photo-blur:2px;
+
+Rounded avatars
+ro_av
+	
+	No* (faster)
+	ro_av_n
+	
+	Yes
+	ro_av_y
+		/*-------------------- rounded avatars --------------------*/
+		._38vo:after, ._6a._44wt ._s0.img, ._qa1, ._2pi4 ._4-u2::before, ._54rs, ._5clo, ._4v9u ._3-91, ._2pi4 ._4-u2, ._6lm, ._6lm  img, ._2cpc img, ._mp3 img, ._ry .img, ._1y2l ._4qeb, ._5pat ._5sq7, .img._c0r, ._3hvt img, ._5pr2.fbChatSidebar .tickerStoryImage, ._55lq img, ._33h._33h, ._3nzk .uiList.uiList.uiList.uiList>li>.clearfix>a>img, ._1n-v img, ._35zb img, ._35za, ._7ql, ._54ru, #fbTimelineHeadline .profilePic, #fbTimelineHeadline .profilePicThumb, ._4tdt ._4tdw img, ._2_a2, ._jf2, ._jf3, ._2dgj img, ._5or1 .img, .friendBrowserPhotoCrop, ._rv, ._rw, ._3s6v, ._3s6w, ._pbn ._4z8- .img, ._6lh ._8yc img, ._2r84 ._2r87, ._7lt ._7ls, ._7lt ._7lw, ._1k67 ._2s25:after, ._698 ._5q6s::after, ._55lq:after
+		{border-radius:50%}
+
+		._6ll, ._3s6x
+		{background:transparent}
+
+		._3s6w ._50f3, ._3s6w ._34mw
+		{ text-align: center;
+		  text-shadow:1px 1px 1px #000, 0 0 2px #000; }
+
+
+Small animated convo list in messenger
+convo_list
+	
+	No*
+	convo_list_n
+	
+	Yes
+	convo_list_y
+		/*-------------------- animated convo list --------------------*/
+		/*Source can be found at https://github.com/ekohilas/messenger-hover */
+
+		/*no idea*/
+		._2ogr::before
+		{content:none}
+		._1enh:hover ._2ogr::before
+		{content:''}
+
+		/*unread color*/
+		._1ht3._1ht1
+		{
+		  background-color:rgba(0, 132, 255, .2);
+		  -webkit-transition:background-color .5s
+		}
+
+		/*non icon stuff*/
+		._1ht5 ._1qt4
+		{display:none!important}
+		._1enh:hover ._1ht5 ._1qt4
+		{display:flex!important}
+		.safari.webkit ._1enh:hover ._1ht5 ._1qt4
+		{display:-webkit-flex!important}
+
+		/*side bar size change*/
+		._1enh
+		{
+		  flex-basis:74px;
+		  min-width:74px;
+		  transition:flex-basis .2s, min-width .2s;
+		}
+		.safari.webkit ._1enh
+		{
+		  -webkit-flex-basis:74px;
+		  -webkit-transition:-webkit-flex-basis .2s, min-width .2s;
+		}  
+		._1enh:hover
+		{
+		  flex-basis:25%;
+		  max-width:420px;
+		  min-width:320px;
+		}
+		.safari.webkit ._1enh:hover
+		{-webkit-flex-basis:25%}
+
+		/*hide 'messenger' text*/
+		._36ic ._1tqi
+		{display:none}
+		._1enh:hover ._36ic ._1tqi
+		{display:inline-block}
+
+		/*messenger header centering*/
+		._36ic
+		{justify-content:center}
+		.safari.webkit ._36ic
+		{-webkit-justify-content:center}
+		._1enh:hover ._36ic
+		{justify-content:space-between}
+		._1enh:hover .safari.webkit ._36ic
+		{-webkit-justify-content: space-between}
+
+		/*new message tab*/
+		._4wzs
+		{overflow-x:hidden}
+		._1bqr
+		{display:none}
+		._1enh:hover ._1bqr
+		{display:inline-block}
+
+		/*option gear*/
+		._4kzu
+		{display:none}
+		._1enh:hover ._4kzu
+		{display:inline-block}
+		._1enh:hover ._2j6
+		{
+		  -webkit-transition-duration:.2s!important;
+		  bottom:16px!important;
+		  right:10px!important;
+		}
+		._2j6
+		{
+		  -webkit-transition-duration:.2s!important;
+		  bottom:9px!important;
+		  right:11px!important;
+		}
+		.liquid ._5iwm
+		{
+		  -webkit-transition-duration:.2s!important;
+		  height:0px!important;
+		  padding:0px!important;
+		  visibility:hidden!important;
+		}
+		._1enh:hover ._5iwm
+		{
+		  -webkit-transition-duration:.2s;
+		  height:100%!important;
+		  padding:12px!important;
+		  visibility:visible!important;
+		}
+
+Wider blocks (beta)
+wider_b
+
+	No*
+	wider_b_n
+	
+	Yes (slower)
+	wider_b_y
+		/*-------------------- wider blocks --------------------*/
+		:root {
+		  --wider-main-padding: 328px;
+		  --wider-right-sidebar: 250px;
+		  --wider-left-sidebar: 192px;
+		  --wider-margin-block: 12px;
+		}
+
+
+		._hc0, ._4lh .fbTimelineTwoColumn[data-type="s"], .fbTimelineUnit.fbTimelineTwoColumn .timelineUnitContainer.fbTimelineComposerUnit, .fbTimelineStickyHeader .back, ._31rz, ._5asl, ._46-h, ._53j5, ._2w3, ._hcc, ._5r7, ._22st, ._4j7v, ._2w-2, ._24d3, ._2q5c
+		{width:100%}
+		._9bp ._50zm, ._1ql0, .timelineLayout #contentArea, ._2orx, ._5zcx, ._289u, .uiScrollableArea._2ex9, ._6lh ._6li, ._150c ._5mly._45oh, ._150c ._5v-_, ._150c ._53j5, ._150c ._ox1._1_d1
+		{width:100%!important}
+
+
+
+		._5nb8, html body._2xk0._5vb_ #globalContainer, html body._5vb_ #globalContainer
+		{width:calc(100% - var(--wider-main-padding) - 15px)}
+		._5ss8, ._1vc-, ._2t4v, ._4gt0, ._4lh .fbTimelineUnit[data-type="r"]
+		{width:calc(325px - (323px - var(--wider-main-padding)))!important}
+		#pages_side_column ._5ss8
+		{width:calc(303px - (323px - var(--wider-main-padding)))!important}
+		#browse_lhc_filter_pagelet ._5ss8.fixed_always
+		{width:calc(175px - (323px - var(--wider-main-padding)))!important}
+
+
+
+		/*news feed*/._2yq ._1qkx
+		{width:calc(100% - var(--wider-right-sidebar) - var(--wider-margin-block))!important}
+		._hbs
+		{width:calc(var(--wider-right-sidebar) - var(--wider-margin-block) - 27px)!important}
+		._5vb_.hasLeftCol ._5r-_ div#rightCol, ._2xk0._5vb_.hasLeftCol ._5r-_ div#rightCol
+		{width:var(--wider-right-sidebar)}
+		._1qku, #pages_side_column ._5ss8.fixed_always, ._2ex9 .uiScrollableAreaBody
+		{width:var(--wider-right-sidebar)!important}
+		._58cy, ._58d3, ._58d3 .uiScaledImageContainer, ._2xv
+		{width:calc(var(--wider-right-sidebar) - 27px)!important}
+		/*pages main block*/#pagelet_timeline_main_column._1qkx
+		{width:calc(100% - var(--wider-right-sidebar) - var(--wider-margin-block))!important}
+		html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea
+		{width:calc(100% - var(--wider-right-sidebar) - 10px)!important}
+
+
+		._5r-_._1ql0, ._4-u5 ._1ql0
+		{width:calc(100% - var(--wider-left-sidebar))!important}
+		._1qks, ._2yq #leftCol div[style*="180px"]
+		{width:calc(var(--wider-left-sidebar) - var(--wider-margin-block))!important}
+
+
+
+		html ._14b9 ._5rz, ._1qp6 .fbProfileBrowserListContainer .fbProfileBrowserListItem, html ._262m ._698
+		{width:calc(100% - 590px)}
+		/*._1qkx
+		{width:calc(100% - 454px)!important}*/
+		#helpCenterRootID ._1ql0/*, ._1qkz*/
+		{width:calc(100% - 400px)!important}
+		.fbx #globalContainer
+		{width: calc(100% - 310px)}
+		._2yq #globalContainer
+		{width:calc(100% - 300px)!important}
+		html ._2xk0._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea
+		{width: calc(100% - 260px)}
+		._1qkz
+		{width:calc(100% - 192px)!important}
+		._6-0
+		{width: calc(100% - 173px)}
+		.fbTimelineStickyHeader
+		{width: calc(100% - 156px)}
+		/*._4lh #contentArea
+		{width: calc(100% - 150px)!important;}*/
+		._30a8 ._54j2, #rhc_gysc_hscroll ._39xw
+		{width:calc(100% - 30px)!important}
+		.timelineLayout #pageFooter
+		{width:calc(100% - 28px)}
+		._2oru, ._2oru div, ._2oru img
+		{width:calc(100% + 9px)!important}
+
+
+		.OfferDetailRHC
+		{width: 32%}
+
+
+		#pages_navigation ._5ss8
+		{width:calc(179px)!important}
+
+
+
+		._70k._70k, ._dcs._4_w4, .fbTimelineStickyHeader .stickyHeaderWrap, ._1n-v, div._3g77, #fbTimelineHeadline, ._1fa6 ._3fbp, ._6-3 ._kj3, ._2y_h, ._avo
+		{width:inherit}
+		/*ads in main*/.uiScaledImageContainer
+		{width:inherit!important}
+		._dcs._4_w4
+		{max-width:initial}
+
+
+
+		.uiScaledImageContainer._6m5.fbStoryAttachmentImage
+		{ width:100%!important;
+		  height:100%!important; }
+
+
+
+
+
+		._5ig0, ._47hq, ._2r3x
+		{display:flex}
+		/*old accs*/._e4b ._51mx
+		{ display: flex;
+		max-width: calc(var(--wider-main-padding) + var(--wider-margin-block)); }
+		._6m8 ._2r3x
+		{display:block}
+		._2ph-._2pin ._51mx
+		{display:grid}
+		._g77, ._2n5z ._51xa ._4jy0
+		{display:table}
+		._5asl
+		{ float: left;
+		  display: inline-block; }
+		._6o4, ._9_m
+		{ margin:auto;
+		  display:block; }
+		._a3f.img
+		{ display:flex;
+		  margin:auto; }
+		/*._51mx:last-child>._51m- {display:initial}*/
+		._35z9, #profile_timeline_tiles_unit_pagelets_photos ._e4b
+		{display:none}
+
+
+		._1k3w, ._4on7
+		{ max-width: 100%;
+		  max-height: 100%;
+		  height:inherit!important; }
+
+
+
+		/*old accs*/._14i5
+		{right:0}
+		/*old accs*/._14iw
+		{left:0}
+		._14iw
+		{left:calc(100% - 303px)}
+		/*public pages cover ph*/
+		._2oru img
+		{top:0!important}
+
+
+
+		._4on7
+		{opacity:1}
+
+
+
+		._5vb_.hasLeftCol ._5r-_ div#rightCol
+		{padding:0}
+		._2pie
+		{padding-top:0}
+		.sidebarMode #globalContainer
+		{padding-right:233px}
+		._2yq ._2t-d, ._2xk0 ._2t-d, ._2t-d
+		{ padding:0 8px;
+		  width:100%; }
+		.sidebarMode ._50tj
+		{padding-right:0}
+		/*help center*/
+		._146p
+		{ width: initial;
+		  padding: 0 50px; }
+
+
+
+		._g77, ._5ig0 ._46-h, ._6m5, ._dcs._4_w4, ._4-eo, ._2a2q, ._5v-_, ._5mly, ._5zcx, .uiScaledImageContainer, ._51mz, ._3-4e
+		{margin:auto}
+		/*._2pie ._64b, group right sidebar*/ ._2pie #pagelet_megaphone
+		{margin-top:var(--wider-margin-block)}
+		._4lh #contentArea
+		{margin-top:20px}
+		._5f0d
+		{ margin: auto;
+		  display: block; }
+		#content_container  ._1qkq
+		{ position: initial;
+		  /*margin-left: 0 !important;*/}
+		._hc0
+		{margin-left:0}
+		._14i5._1qkq
+		{margin-left:0!important}
+
+
+		._2r3x .lfloat._ohe
+		{float:inherit}
+		._2yq #rightCol
+		{float:right}
+
+
+		._gx7
+		{text-align:center}
+
+
+Background type
+cust_bg
+	
+	Without background*
+	cust_bg_n
+	
+	Partial blackout
+	cust_bg_2
+		/*-------------------- custom background (Partial blackout) --------------------*/
+		:root
+		{
+		  --bg-blackout: rgba(0, 0, 0, 0.6);
+		}
+
+		body
+		{ /*image-rendering: optimizeSpeed;*/
+		  background:url(/*[[cust_bg_ph]]*/)!important;
+		  background-repeat:no-repeat!important;
+		  background-attachment:fixed!important;
+		  background-position:50% 50%!important;
+		  -webkit-background-size:cover!important;
+		  -o-background-size:cover!important;
+		  background-size:cover!important;
+		  background-color:var(--bg-color-first, #2a2a2a)!important;
+		  /**smooth**/-webkit-transition: background-color var(--hover-timeout, 0.5s) ease;-moz-transition: background-color var(--hover-timeout, 0.5s) ease;-o-transition: background-color var(--hover-timeout, 0.5s) ease;transition: background-color var(--hover-timeout, 0.5s) ease;
+		}
+
+
+		._5vb_ #contentCol, ._4lh .fbTimelineTimePeriod, .fbTimelineSection, ._4sp8, .uiScrollableAreaContent, ._5vb_, ._5l37
+		{background-color:transparent}
+
+		._3nl, ._1hwg label, ._3v72 label, .sidebarMode .webkit #globalContainer .fixed_elem, .sidebarMode .webkit #globalContainer .fixed_always
+		{background-color:transparent!important}
+
+
+		._70k, .SettingsPage #contentCol, .uiSideNav .item
+		{ border-radius:2px;
+		  background-color:var(--bg-color-first, #2a2a2a);
+		  -webkit-transition: background-color var(--hover-timeout, 0.5s) ease;-moz-transition: background-color var(--hover-timeout, 0.5s) ease;-o-transition: background-color var(--hover-timeout, 0.5s) ease;transition: background-color var(--hover-timeout, 0.5s) ease;
+		}
+
+
+		._56mv._fbEventsPermalink__singleColumnPermalink._2xk0, ._51l0 ._2sdm
+		{ background:var(--bg-blackout, rgba(0,0,0,.6));
+		  padding:0px 15px;
+		}
+
+		.fb_content
+		{ background:var(--bg-blackout, rgba(0,0,0,.6));
+		  padding: 0px 11px 0px 11px!important;
+		  position: absolute;
+		}
+
+		#initial_browse_result, ._4-u5._2yq .fb_content, ._5hy2
+		{background:var(--bg-blackout, rgba(0,0,0,.6))}
+
+		._56mv._fbEventsPermalink__singleColumnPermalink._2xk0
+		{padding:15px}
+
+		#pageFooter
+		{padding:0px 14px 1px}
+
+	Full blackout
+	cust_bg_3		
+		/*-------------------- custom background (Full blackout) --------------------*/
+		:root
+		{
+		  --bg-blackout: rgba(0, 0, 0, 0.6);
+		}
+
+		body
+		{
+		  /*image-rendering: optimizeSpeed;*/
+		  background:linear-gradient(var(--bg-blackout, rgba(0,0,0,.6)),var(--bg-blackout, rgba(0,0,0,.6))),url(/*[[cust_bg_ph]]*/)!important;
+		  background-repeat:no-repeat!important;
+		  background-attachment:fixed!important;
+		  background-position:50% 50%!important;
+		  -webkit-background-size:cover!important;
+		  -o-background-size:cover!important;
+		  background-size:cover!important;
+		  background-color:var(--bg-color-first, #2a2a2a)!important;
+		  /**smooth**/-webkit-transition: background-color var(--hover-timeout, 0.5s) ease;-moz-transition: background-color var(--hover-timeout, 0.5s) ease;-o-transition: background-color var(--hover-timeout, 0.5s) ease;transition: background-color var(--hover-timeout, 0.5s) ease;
+		}
+
+
+		._5vb_ #contentCol, ._4lh .fbTimelineTimePeriod, .fbTimelineSection, ._4sp8, ._4u-c, .uiScrollableAreaContent, ._5vb_, ._5l37
+		{background-color:transparent}
+
+		._3nl, ._1hwg label, ._3v72 label, .sidebarMode .webkit #globalContainer .fixed_elem, .sidebarMode .webkit #globalContainer .fixed_always
+		{background-color:transparent!important}
+
+
+		._70k, .SettingsPage #contentCol, .uiSideNav .item
+		{
+		  border-radius:2px;
+		  background-color:var(--bg-color-first, #2a2a2a);
+		  -webkit-transition: background-color var(--hover-timeout, 0.5s) ease;-moz-transition: background-color var(--hover-timeout, 0.5s) ease;-o-transition: background-color var(--hover-timeout, 0.5s) ease;transition: background-color var(--hover-timeout, 0.5s) ease;
+		}
+
+
+		._56mv._fbEventsPermalink__singleColumnPermalink._2xk0
+		{padding:15px}
+
+		#pageFooter
+		{padding:0px 14px 1px}
+
+	Translucent blocks (slowly)
+	cust_bg_1
+		/*-------------------- custom background (Translucent blocks)--------------------*/
+		:root
+		{
+		  --bg-blackout: rgba(0, 0, 0, 0.6);
+		  --bg-opacity: 0.9;
+		}
+
+		body
+		{
+		  opacity: var(--bg-opacity, 0.9);
+		  /*image-rendering: optimizeSpeed;*/
+		  background:url(/*[[cust_bg_ph]]*/)!important;
+		  background-repeat:no-repeat!important;
+		  background-attachment:fixed!important;
+		  background-position:50% 50%!important;
+		  -webkit-background-size:cover!important;
+		  -o-background-size:cover!important;
+		  background-size:cover!important;
+		  background-color:var(--bg-color-first, #2a2a2a)!important;
+		  /**smooth**/-webkit-transition: background-color var(--hover-timeout, 0.5s) ease;-moz-transition: background-color var(--hover-timeout, 0.5s) ease;-o-transition: background-color var(--hover-timeout, 0.5s) ease;transition: background-color var(--hover-timeout, 0.5s) ease;
+		}
+
+		._5vb_ #contentCol, ._4lh .fbTimelineTimePeriod, .fbTimelineSection, ._4sp8, /*._4u-c,*/ .uiScrollableAreaContent, ._5vb_, ._4__a, ._3nl, ._1hwg label, ._3v72 label, .sidebarMode .webkit #globalContainer .fixed_elem, .sidebarMode .webkit #globalContainer .fixed_always
+		{background-color:transparent}
+
+
+		._70k, ._45mq, ._55y4._3m75, ._v_1, ._50f8, ._50f7, .SettingsPage #contentCol, ._4bl7._3556, .uiSideNav .item, ._3f-h, ._4qyw, ._2wmb, ._4f38, ._5und, ._c24, ._2wm9, #pageFooter
+		{
+		  border-radius:2px;
+		  background-color:var(--bg-color-first, #2a2a2a);
+		  /**smooth**/-webkit-transition: background-color var(--hover-timeout, 0.5s) ease;-moz-transition: background-color var(--hover-timeout, 0.5s) ease;-o-transition: background-color var(--hover-timeout, 0.5s) ease;transition: background-color var(--hover-timeout, 0.5s) ease;
+		}
+
+
+		._51l0 ._2sdm
+		{background:var(--bg-blackout, rgba(0,0,0,.6))}
+
+
+		._45mq
+		{
+		  margin-top:10px;
+		  padding:5px 14px 12px;
+		}
+
+		._50f8, ._50f7, ._4f38
+		{padding:5px}
+
+		._55y4._3m75, ._v_1
+		{padding:10px}
+
+		._fbEventsPermalink__rail
+		{padding:15px 14px 12px}
+
+		#pageFooter
+		{padding:0px 14px 1px}
+
+		._4bl7._3556
+		{margin-top:10px}
+
+		._4qyw, ._2wmb, ._c24, ._2wm9
+		{padding:4px 8px}
+
+
+		.fbNub._50mz .fbNubFlyoutInner
+		{opacity:1}
+
+
+if background is active
+cust_bg_ph
+	
+	Default
+	cust_bg_ph_1
+		https://i.imgur.com/Y88g6SE.jpg
+
+
